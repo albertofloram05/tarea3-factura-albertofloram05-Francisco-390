@@ -15,11 +15,13 @@ El .class lo ejecuta la JVM (Java Virtual Machine), también llamada máquina vi
 El archivo Factua.class no se ha generado porque el código contiene varios errores que impiden compilarlo correctamente.
 
 ## Reto 2 · Errores de compilación
-| Nº | Línea | Mensaje de javac | Tipo (léxico / sintaxis / semántica) | Corrección |
-|----|-------|------------------|--------------------------------------|------------|
-| 1  |       |                  |                                      |            |
-| 2  |       |                  |                                      |            |
-| 3  |       |                  |                                      |            |
+| Nº | Línea | Mensaje de javac                               | Tipo (léxico / sintaxis / semántica) | Corrección                              |
+|----|-------|------------------------------------------------|--------------------------------------|-----------------------------------------|
+| 1  | 15    | Factura.java:15: error: illegal character: '#' | Léxico                               | double precio = sc.nextDouble();        |
+| 2  | 17    | Factura.java:17: error: ';' expected           | Sintactico                           | int cantidad = sc.nextInt();            |
+| 3  | 29    | Factura.java:29: error: incompatible types:    | Semántico                            | double total = (base - descuento)       |    
+|    |       | possible lossy conversion from double to int   |                                      | * (1 + IVA);                            |
+
 Captura del programa funcionando: capturas/reto2.png
 
 ## Reto 3 · Depuración del error lógico
