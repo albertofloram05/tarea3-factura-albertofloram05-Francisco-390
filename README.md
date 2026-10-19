@@ -27,11 +27,11 @@ Captura del programa funcionando: capturas/reto2.png
 ## Reto 3 · Depuración del error lógico
 | Variable | Valor esperado | Valor real |
 |----------|----------------|------------|
-| descuento |               |            |
-| total     |               |            |
-- Línea del error y explicación:
-- Corrección:
-- Mi propia prueba (producto, precio, cantidad, socio → total):
+| descuento |      18       |     12     |
+| total     |    123,42     |   137,94   |
+- Línea del error y explicación: La línea del error es la 27, esto es debido a que, en vez de acumularse el descuento, sustituye directamente el valor del descuento anterior con el actual.
+- Corrección: descuento += base * 0.05;
+- Mi propia prueba (producto, precio, cantidad, socio → total): producto = "Sartén", precio = 25,99, cantidad = 2, socio = "s" --> total = 57,75
 Captura del depurador: capturas/reto3.png
 
 ## Reto 4 · Reutilización
