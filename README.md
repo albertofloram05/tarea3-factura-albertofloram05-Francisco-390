@@ -52,3 +52,5 @@ El codigo está mejor organizado y los metodos se pueden reutilizar en otras par
 
     - Rendimiento: el código compilado puede ejecutarse muy rápido.
     - Coste de desarrollo: el ensamblador es más difícil de escribir, por lo que aumentaría el tiempo de desarrollo sin aportar una ventaja importante para este proyecto.
+
+// Palabra del día: ________
