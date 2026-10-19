@@ -36,7 +36,11 @@ Captura del depurador: capturas/reto3.png
 
 ## Reto 4 · Reutilización
 - Métodos creados y para qué sirve cada uno:
+· calcularDescuento(double base, boolean socio): calcula el descuento segun el importe de la factura y si el cliente es socio.
+
+· aplicarIVA(double importe): calcula el importe final aplicando el IVA del 21 %.
 - ¿Qué ventaja tiene frente al código anterior?
+El codigo está mejor organizado y los metodos se pueden reutilizar en otras partes del programa.
 
 ## Reto 5 · ¿Qué lenguaje elegirías?
 - Caso A (web de la tienda):
