@@ -6,6 +6,14 @@ Pareja: (Alberto Florido) y (Francisco Martinez) · GitHub: (albertofloram05), (
 - ¿Qué es Factura.java? ¿Y Factura.class? ¿Quién ejecuta el .class?
 - ¿Por qué no se ha generado Factura.class la primera vez?
 
+Factura.java es el archivo de código fuente del programa. Contiene las instrucciones que he escrito en lenguaje Java y que todavía deben compilarse para que el ordenador pueda ejecutarlas.
+
+Factura.class es el archivo que se genera al compilar el código Java. Contiene el bytecode, unas instrucciones intermedias que la máquina virtual de Java puede interpretar o ejecutar.
+
+El .class lo ejecuta la JVM (Java Virtual Machine), también llamada máquina virtual de Java. Se encarga de ejecutar el bytecode para que el programa funcione en el ordenador.
+
+El archivo Factua.class no se ha generado porque el código contiene varios errores que impiden compilarlo correctamente.
+
 ## Reto 2 · Errores de compilación
 | Nº | Línea | Mensaje de javac | Tipo (léxico / sintaxis / semántica) | Corrección |
 |----|-------|------------------|--------------------------------------|------------|
