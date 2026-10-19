@@ -43,5 +43,12 @@ Captura del depurador: capturas/reto3.png
 El codigo está mejor organizado y los metodos se pueden reutilizar en otras partes del programa.
 
 ## Reto 5 · ¿Qué lenguaje elegirías?
-- Caso A (web de la tienda):
-- Caso B (propuesta en ensamblador):
+- Caso A (web de la tienda): Elegiría un lenguaje interpretado, como JavaScript, porque permite realizar los cálculos directamente en el navegador, sin necesidad de instalar un programa adicional en el ordenador del cliente. Los dos criterios serían
+
+    - Coste de desarrollo: es fácil integrarlo en una página web y actualizar la calculadora sin tener que distribuir un programa nuevo. 
+    - Portabilidad: los clientes pueden utilizarlos desde distintos dispositivos.
+
+- Caso B (propuesta en ensamblador): No elegiría ensamblador, sino un lenguaje compilado, como C, porque ofrece un buen rendimiento sin aumentar innecesariamente la dificultad del desarrollo. 
+
+    - Rendimiento: el código compilado puede ejecutarse muy rápido.
+    - Coste de desarrollo: el ensamblador es más difícil de escribir, por lo que aumentaría el tiempo de desarrollo sin aportar una ventaja importante para este proyecto.
